@@ -21,5 +21,7 @@
 		"psr-4": {
 			"Hurnell\\WebpackEncoreViewHelper\\": "src/"
 		}
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
