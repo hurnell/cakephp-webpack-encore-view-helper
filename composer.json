@@ -17,7 +17,7 @@
     "require-dev": {
         "cakephp/cakephp": "^3.7"
     },
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"autoload": {
 		"psr-4": {
 			"Hurnell\\WebpackEncoreViewHelper\\": "src/"
