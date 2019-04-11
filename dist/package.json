@@ -14,6 +14,7 @@
 		"dev": "encore dev",
 		"watch": "encore dev --watch",
 		"progress": "encore dev --watch --progress --display-chunks",
-		"build": "encore production"
+		"build": "encore production",
+		"stats": "encore production --json > stats.json"
 	}
 }
