@@ -1,0 +1,26 @@
+{
+    "name": "hurnell/cakephp-webpack-encore-view-helper",
+    "description": "CakePhp view helper plugin to load webpack-encore assets. Reads entrypoints.json and manifest.json and loads the assets referenced herein when requested.",
+    "type": "cakephp-view-helper",,
+	"license": "MIT",
+	"homepage": "https://github.com/hurnell/cakephp-webpack-encore-view-helper",
+	"authors": [
+		{
+			"name": "Nigel Hurnell",
+			"homepage": "https://www.hurnell.com"
+		}
+	],
+    "require": {
+		"php": "^7.1",
+		"galbar/jsonpath": "dev-master"
+    },
+    "require-dev": {
+        "cakephp/cakephp": "^3.7"
+    },
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Hurnell\\WebpackEncoreViewHelper\\": "src/"
+		}
+	}
+}

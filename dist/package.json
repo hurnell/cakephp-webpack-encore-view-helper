@@ -1,0 +1,19 @@
+{
+	"devDependencies": {
+		"@symfony/webpack-encore": "^0.26.0",
+		"node-sass": "^4.11.0",
+		"node-sass-json-importer": "^4.1.0",
+		"sass-loader": "^7.1.0",
+		"webpack-notifier": "^1.7.0",
+		"copy-webpack-plugin": "^5.0.2",
+		"jquery": "^3.3.1",
+		"webpack-build-notifier": "^0.1.31"
+	},
+	"scripts": {
+		"dev-server": "encore dev-server --port 8080 --disableHostCheck=true",
+		"dev": "encore dev",
+		"watch": "encore dev --watch",
+		"progress": "encore dev --watch --progress --display-chunks",
+		"build": "encore production"
+	}
+}
